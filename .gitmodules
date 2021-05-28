@@ -1,3 +1,18 @@
+[submodule "30-seconds-of-golang"]
+	path = 30-seconds-of-golang
+	url = git@github.com:30-seconds/30-seconds-of-golang.git
+[submodule "30-seconds-of-git"]
+	path = 30-seconds-of-git
+	url = git@github.com:30-seconds/30-seconds-of-git.git
+[submodule "30-seconds-of-react"]
+	path = 30-seconds-of-react
+	url = git@github.com:30-seconds/30-seconds-of-react.git
+[submodule "30-seconds-of-css"]
+	path = 30-seconds-of-css
+	url = git@github.com:30-seconds/30-seconds-of-css.git
+[submodule "30-seconds-of-python"]
+	path = 30-seconds-of-python
+	url = git@github.com:30-seconds/30-seconds-of-python.git
 [submodule "30-seconds-of-code"]
 	path = 30-seconds-of-code
 	url = git@github.com:30-seconds/30-seconds-of-code.git

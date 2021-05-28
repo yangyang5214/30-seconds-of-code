@@ -17,6 +17,8 @@ cd source/_posts
 for file in `ls`
 do 
  	sed -i '3s/: /: [/g; 3s/$/]/g' $file
+	image_url=$(curl https://www.hexianwei.com/api/bed/random)
+	sed -i '5a![]('$image_url')' $file
 done
 
 cd ../../

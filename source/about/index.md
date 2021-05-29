@@ -15,4 +15,4 @@ Fork from [30secondsofcode](https://www.30secondsofcode.org/)
 
 每次最多 30s
 
-一起生成
+一起成长

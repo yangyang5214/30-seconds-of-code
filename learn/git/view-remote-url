@@ -1,0 +1,47 @@
+
+其实就是 config 文件的内容
+
+
+### .git/config 文件
+
+```
+➜  30-seconds-of-code git:(master) cat .git/config         
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = git@github.com:yangyang5214/30-seconds-of-code.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[submodule "30-seconds-of-code"]
+	active = true
+	url = git@github.com:30-seconds/30-seconds-of-code.git
+[submodule "30-seconds-of-css"]
+	active = true
+	url = git@github.com:30-seconds/30-seconds-of-css.git
+[submodule "30-seconds-of-git"]
+	active = true
+	url = git@github.com:30-seconds/30-seconds-of-git.git
+[submodule "30-seconds-of-golang"]
+	active = true
+	url = git@github.com:30-seconds/30-seconds-of-golang.git
+[submodule "30-seconds-of-python"]
+	active = true
+	url = git@github.com:30-seconds/30-seconds-of-python.git
+[submodule "30-seconds-of-react"]
+	active = true
+	url = git@github.com:30-seconds/30-seconds-of-react.git
+```
+
+### git config --get remote.origin.url 
+
+```
+➜  30-seconds-of-code git:(master) git config --get remote.origin.url 
+git@github.com:yangyang5214/30-seconds-of-code.git
+```

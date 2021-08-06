@@ -632,7 +632,7 @@ livere_uid: # <your_uid>
 # Gitalk
 # For more information: https://gitalk.github.io, https://github.com/gitalk/gitalk
 gitalk:
-  enable: true
+  enable: false
   github_id: yangyang5214
   repo: comment 
   client_id: xxxxxx_client_id

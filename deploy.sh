@@ -26,7 +26,7 @@ function addTag(){
 		target_file=$2'_'$file
 		mv $file $target_file
         	sed -i '3s/: /: [/g; 3s/$/',$2']/g' $target_file
-        	image_url=$(curl localhost:8700/random/bed)
+        	image_url=$(curl localhost:9001/random/bed)
         	sed -i '5a![]('$image_url')' $target_file
 	done
 
